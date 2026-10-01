@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Universe Theme",
+  "version": "1.0",
+  "description": "A deep space theme with a nebula and minute stars overlay.",
+  "theme": {
+    "images": {
+      "theme_frame": "universe.jpg",
+      "additional_backgrounds": [ "stars.svg" ]
+    },
+    "colors": {
+      "frame": "#090d14",
+      "toolbar": "#121822",
+      "tab_text": "#ffffff",
+      "toolbar_text": "#e0e0e0",
+      "tab_selected": "#1b2333"
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [ "top left" ],
+      "additional_backgrounds_tiling": [ "repeat" ]
+    }
+  }
+}
